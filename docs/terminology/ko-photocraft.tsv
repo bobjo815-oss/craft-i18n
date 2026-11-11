@@ -1,0 +1,33 @@
+english	korean	context	novice_help	references	decision
+Pixel	픽셀	image element	디지털 이미지를 이루는 작은 색상 단위입니다.	editorial	인쇄 크기와 픽셀 수를 따로 설명합니다.
+Image Size	이미지 크기	image dimensions	그림 전체의 픽셀 수와 출력 크기 등을 조절합니다.	editorial	캔버스 크기 변경과 구별합니다.
+Canvas Size	캔버스 크기	image bounds	그림을 담을 작업 영역을 넓히거나 줄입니다.	editorial	기존 그림의 픽셀을 확대하는 것과 다릅니다.
+Resample	리샘플링	image resize	픽셀을 새로 계산하여 그림의 픽셀 수를 바꿉니다.	editorial	해상도 숫자만 바꾸는 작업과 구별합니다.
+Layer Mask	레이어 마스크	pixel mask	레이어에서 보일 부분과 숨길 부분을 따로 그려 정합니다.	S5	내용을 직접 지우는 것과 구별합니다.
+Vector Mask	벡터 마스크	path mask	도형의 윤곽을 이용해 레이어의 보이는 범위를 정합니다.	S6	레이어 마스크와 구체적인 편집 방식이 다릅니다.
+Add Layer Mask	레이어 마스크 추가	command	현재 레이어에 표시 범위를 조절할 마스크를 붙입니다.	S6	마스크 추가만으로 모든 내용이 지워지는 것은 아닙니다.
+Adjustment Layer	조정 레이어	nondestructive adjustment	원본 픽셀을 직접 고치지 않고 색상이나 밝기 조정을 별도 레이어로 관리합니다.	S6	현재 앱에서 비파괴 조정으로 구현된 항목에만 사용합니다.
+Blend Mode	혼합 모드	layer compositing	이 레이어의 색을 아래 레이어와 어떤 방식으로 합칠지 고릅니다.	S5	레이어의 전체 불투명도와 구별합니다.
+Flatten Image	이미지 병합	layer compositing	보이는 결과를 한 장의 이미지로 합쳐 레이어 구조를 줄입니다.	editorial	병합 후 개별 레이어 편집이 제한될 수 있습니다.
+Merge Down	아래 레이어와 병합	layer compositing	현재 레이어와 바로 아래 레이어를 하나로 합칩니다.	editorial	두 레이어의 표시와 마스크 처리 방식을 확인합니다.
+Selection Feather	선택 영역 가장자리 부드럽게	pixel selection	선택 경계가 급하게 끊기지 않고 서서히 바뀌도록 합니다.	editorial	페더를 동의어로 유지하고 이미지 전체 흐림과 구별합니다.
+Anti-alias	앤티 앨리어스	pixel edge rendering	비스듬한 가장자리의 계단 모양이 덜 보이도록 중간 색을 사용합니다.	editorial	선명도나 해상도를 높이는 기능은 아닙니다.
+Tolerance	허용치	color selection	선택할 색이 기준 색과 얼마나 달라도 되는지 정합니다.	editorial	오차를 뜻하는 다른 문맥과 구별합니다.
+Contiguous	인접 영역만	color selection	선택한 지점과 이어진 비슷한 색 영역만 고릅니다.	editorial	이미지 전체의 같은 색 선택과 구별합니다.
+Lasso	올가미	selection tool	원하는 윤곽을 직접 그려 편집할 영역을 선택합니다.	editorial	선택 결과를 만드는 도구입니다.
+Magic Wand	자동 선택	color selection tool	비슷한 색상을 기준으로 영역을 고릅니다.	editorial	마술봉은 검색용 동의어입니다.
+Clone Stamp	복제 도장	retouching	다른 위치의 픽셀을 가져와 원하는 부분에 덧그립니다.	editorial	표본 위치를 먼저 정하는 방식을 확인합니다.
+Healing Brush	복구 브러시	retouching	주변의 색과 질감에 어울리도록 작은 흠집을 보정합니다.	editorial	원본 복원이나 손실 파일 복구와 구별합니다.
+Brush Hardness	브러시 경도	painting	붓 자국 가장자리가 얼마나 또렷하거나 부드러운지 정합니다.	editorial	브러시 불투명도와 구별합니다.
+Brush Flow	브러시 흐름	painting	붓질을 이어 갈 때 색이 쌓이는 양을 조절합니다.	editorial	불투명도와 같은 효과라고 설명하지 않습니다.
+Foreground Color	전경색	painting color	새로 칠하거나 그릴 때 우선 사용하는 색상입니다.	editorial	화면에서 앞쪽에 있는 레이어 색과 다릅니다.
+Background Color	배경색	painting color	일부 채우기와 편집 동작에서 사용하는 두 번째 기본 색상입니다.	editorial	배경 레이어의 색과 항상 같지는 않습니다.
+Levels	레벨	tonal adjustment	어두운 부분과 밝은 부분, 중간 밝기의 범위를 조절합니다.	editorial	히스토그램과 조절 손잡이의 뜻을 함께 설명합니다.
+Curves	곡선	tonal adjustment	밝기 구간별로 얼마나 밝게 또는 어둡게 바꿀지 정합니다.	editorial	도형의 곡선 편집과 구별합니다.
+Hue	색조	color adjustment	빨강이나 파랑처럼 색의 종류를 바꿉니다.	editorial	색상이라는 일반 단어와 조정 항목 이름을 구별합니다.
+Saturation	채도	color adjustment	색이 얼마나 선명하거나 회색에 가까운지 조절합니다.	editorial	밝기와 구별합니다.
+Exposure	노출	tonal adjustment	사진 전체의 빛의 양에 해당하는 밝기를 조절합니다.	editorial	모든 밝기 조정이 같은 계산은 아닙니다.
+White Balance	화이트 밸런스	color adjustment	흰색이 자연스럽게 보이도록 사진의 색 기울어짐을 조절합니다.	editorial	색온도 및 색조 설정과 함께 설명합니다.
+Histogram	히스토그램	image analysis	그림에 어두운 픽셀과 밝은 픽셀이 얼마나 있는지 분포로 보여 줍니다.	editorial	그래프의 높이를 이미지의 밝기 자체로 설명하지 않습니다.
+Alpha Channel	알파 채널	transparency data	각 픽셀이 얼마나 투명한지 저장하는 정보입니다.	editorial	색상 채널과 구별합니다.
+Smart Object	고급 개체	compatibility terminology	원본 내용을 보관한 채 변형 등을 관리하는 개체 방식입니다.	S6	앱의 실제 기능이 확인되기 전에는 지원 기능으로 표시하지 않습니다.

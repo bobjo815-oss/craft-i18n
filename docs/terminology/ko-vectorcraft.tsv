@@ -1,0 +1,30 @@
+english	korean	context	novice_help	references	decision
+Artboard	대지	output region	그림에서 내보내거나 인쇄할 하나의 작업 면을 정합니다.	S4	아트보드는 검색용 동의어입니다. 페이스트보드와 구별합니다.
+Path	패스	vector geometry	직선과 곡선을 이어 만든 선의 구조입니다.	S4	파일 경로와 별도 문맥을 둡니다.
+Anchor Point	고정점	vector geometry	패스가 지나가며 방향이나 모양이 바뀌는 기준점입니다.	S4	노드 또는 기준점이라는 동의어를 허용합니다.
+Direction Handle	방향 핸들	curve editing	고정점에서 뻗은 손잡이로 곡선의 방향과 휘어짐을 조절합니다.	editorial	개체 전체의 크기 조절 핸들과 구별합니다.
+Corner Point	모퉁이점	curve editing	패스의 방향이 꺾이는 지점을 만듭니다.	editorial	모든 고정점이 모퉁이점은 아닙니다.
+Smooth Point	매끄러운 점	curve editing	곡선이 부드럽게 이어지도록 방향이 연결된 고정점입니다.	editorial	점 삭제와 곡선 단순화와 구별합니다.
+Open Path	열린 패스	vector geometry	시작점과 끝점이 이어지지 않은 패스입니다.	editorial	파일이 열린 상태와 구별합니다.
+Closed Path	닫힌 패스	vector geometry	시작점과 끝점이 이어져 하나의 둘레를 이루는 패스입니다.	editorial	열린 패스를 닫으면 새 선분이 생길 수 있습니다.
+Compound Path	컴파운드 패스	vector structure	여러 패스를 하나의 개체로 묶어 안쪽 구멍 등을 표현합니다.	S4	단순한 그룹과 구별합니다.
+Clipping Path	클리핑 패스	visibility control	패스 안쪽에서만 내용이 보이도록 표시 범위를 정합니다.	S4	패스 바깥 내용이 실제로 삭제되었다고 설명하지 않습니다.
+Outline Stroke	획 윤곽선 만들기	geometry conversion	선의 두께로 보이던 테두리를 면을 가진 도형으로 바꿉니다.	S4	이후에는 획 두께 속성으로 같은 방식의 편집이 어려울 수 있습니다.
+Create Outlines	문자 윤곽선 만들기	text conversion	글자를 글꼴 대신 벡터 도형으로 바꿉니다.	editorial	문자 편집과 검색이 제한될 수 있음을 설명합니다.
+Expand	확장	geometry conversion	겉모양을 구성하는 효과나 획을 실제 도형으로 바꿉니다.	S4	크기 확대와 다른 명령입니다.
+Union	합치기	boolean geometry	겹친 도형들의 영역을 하나의 도형으로 만듭니다.	editorial	이 앱의 불리언 연산 이름을 확인합니다.
+Subtract	빼기	boolean geometry	한 도형의 영역을 다른 도형에서 도려냅니다.	editorial	앞뒤 순서가 결과에 영향을 줄 수 있습니다.
+Intersect	교차 영역	boolean geometry	선택한 도형이 서로 겹친 부분만 남깁니다.	editorial	교차점의 표시 기능과 구별합니다.
+Exclude	겹침 제외	boolean geometry	도형들이 겹치는 부분을 제외한 영역을 만듭니다.	editorial	여러 도형의 채움 규칙을 확인합니다.
+Offset Path	패스 이동	vector geometry	원래 윤곽에서 일정 거리만큼 떨어진 새 윤곽을 만듭니다.	editorial	단순 위치 이동과 달라 보조 설명을 붙입니다.
+Join	패스 연결	vector editing	열린 패스의 끝점을 이어 하나의 패스로 만듭니다.	S4	그룹화와 구별합니다.
+Simplify	패스 단순화	vector editing	모양을 유지하는 범위에서 고정점 수를 줄입니다.	S4	세부 모양이 달라질 수 있습니다.
+Cap	선 끝 모양	stroke appearance	열린 선의 끝을 평평하거나 둥글게 표시하는 방식을 정합니다.	editorial	대문자라는 뜻의 Caps와 구별합니다.
+Join Style	모퉁이 모양	stroke appearance	선이 꺾이는 곳의 테두리를 뾰족하거나 둥글게 표시합니다.	editorial	패스 연결 명령과 구별합니다.
+Miter Limit	마이터 한계	stroke appearance	날카로운 모퉁이의 테두리가 얼마나 길게 뻗을 수 있는지 정합니다.	editorial	초보자 설명에서는 뾰족한 모서리 길이 한계로 풉니다.
+Dash	파선	stroke appearance	선을 일정한 길이와 간격으로 끊어서 표시합니다.	editorial	문자 대시 기호와 구별합니다.
+Gradient Stop	그레이디언트 색상점	gradient editing	그레이디언트에서 특정 위치의 색상을 지정하는 점입니다.	editorial	고정점과 구별합니다.
+Pattern	패턴	fill appearance	같은 무늬를 반복해서 영역을 채웁니다.	editorial	텍스트 검색 패턴과 별도 문맥을 둡니다.
+Image Trace	이미지 추적	raster conversion	픽셀 이미지의 윤곽을 읽어 벡터 도형으로 바꿉니다.	editorial	원본과 완전히 같은 모양을 보장하지 않습니다.
+Rasterize	래스터화	vector conversion	벡터 도형을 지정한 해상도의 픽셀 이미지로 바꿉니다.	editorial	초보자 설명은 픽셀 이미지로 변환입니다.
+Outline View	윤곽선 보기	view	칠과 효과를 줄이고 패스 구조를 확인합니다.	S4	실제 문서의 칠을 삭제하는 기능은 아닙니다.

@@ -1,0 +1,78 @@
+english	korean	context	novice_help	references	decision
+File	파일	menu	문서를 만들거나 열고 저장하는 명령을 모아 둡니다.	editorial	메뉴 이름은 짧은 명사로 유지합니다.
+Edit	편집	menu	선택한 내용을 복사하거나 바꾸고 최근 작업을 되돌립니다.	editorial	문서 내용의 변경과 화면 보기의 변경을 구별합니다.
+View	보기	menu	문서를 화면에 표시하는 방법을 조절합니다.	editorial	화면 배율 변경을 문서 크기 변경과 구별합니다.
+Window	창	menu	작업 창과 도구 패널을 열거나 전환합니다.	S2	패널과 운영체제 창을 문맥으로 구별합니다.
+Help	도움말	menu	기능 설명과 사용 방법을 찾아봅니다.	editorial	도구 설명은 툴팁의 별칭으로만 씁니다.
+Open	열기	command	이미 저장된 파일을 작업 창으로 불러옵니다.	editorial	열린 상태를 뜻하는 Open에는 별도 문맥을 둡니다.
+Save	저장	command	현재 편집 내용을 문서 파일에 기록합니다.	editorial	덮어쓰기 여부는 실제 저장 흐름에서 안내합니다.
+Save As	다른 이름으로 저장	command	파일 이름이나 위치를 지정하여 문서를 저장합니다.	editorial	말줄임표는 실제 영어 키의 표기를 따릅니다.
+Export	내보내기	command	완성한 결과를 공유하거나 인쇄할 파일 형식으로 만듭니다.	editorial	편집용 원본 저장과 다른 작업임을 설명합니다.
+Import	가져오기	command	다른 파일의 내용을 현재 작업에 사용할 수 있도록 불러옵니다.	editorial	배치와 가져오기가 같은 동작이라고 가정하지 않습니다.
+Place	배치	command	외부 그림이나 문서를 현재 페이지의 원하는 위치에 넣습니다.	S3	파일을 여는 동작과 구별합니다.
+Undo	실행 취소	command	가장 최근의 편집 작업을 한 단계 되돌립니다.	editorial	이미 저장한 원본 복원과 구별합니다.
+Redo	다시 실행	command	실행 취소로 되돌린 작업을 다시 적용합니다.	editorial	재실행도 검색용 동의어로 허용합니다.
+Apply	적용	command	현재 설정을 선택한 대상에 반영합니다.	editorial	적용 시 확정되는 대상을 함께 안내합니다.
+Cancel	취소	command	현재 작업이나 대화상자를 취소합니다.	editorial	문서 전체의 변경이 취소된다고 약속하지 않습니다.
+Reset	초기화	command	이 항목의 설정을 기본값으로 돌립니다.	editorial	삭제 및 실행 취소와 구별하고 범위를 명시합니다.
+Delete	삭제	command	선택한 항목을 문서에서 없앱니다.	editorial	되돌릴 수 있는지는 해당 명령의 구현을 확인합니다.
+Remove	제거	command	목록이나 연결에서 항목을 뺍니다.	editorial	파일 자체 삭제인지 연결만 해제하는지 명시합니다.
+Duplicate	복제	command	선택한 항목과 같은 사본을 하나 더 만듭니다.	editorial	클립보드를 거치는 복사와 구별합니다.
+Preferences	환경 설정	application settings	앱 전반에 적용할 언어와 작업 환경을 조절합니다.	S2	환경설정과 혼용하지 않고 띄어 씁니다.
+Settings	설정	feature settings	이 기능의 동작과 출력 방식을 조절합니다.	editorial	앱 전체 환경 설정과 기능별 설정을 구별합니다.
+Interface Language	인터페이스 언어	localization	메뉴와 버튼을 표시할 언어를 고릅니다.	editorial	문서 번역이나 OCR 언어 변경으로 설명하지 않습니다.
+Panel	패널	workspace	관련 설정과 항목을 한곳에서 보고 조절하는 영역입니다.	S2	모든 패널을 창으로 바꾸지 않습니다.
+Toolbar	도구 모음	workspace	자주 쓰는 도구를 아이콘으로 모아 둔 영역입니다.	S6	Adobe의 도구 막대를 동의어로 둡니다. 실제 앱 배치에 맞게 구별합니다.
+Workspace	작업 영역	workspace	문서와 패널을 배치하여 작업하는 화면 구성입니다.	S4	캔버스나 출력 영역과 구별합니다.
+Canvas	캔버스	workspace	그림이나 디자인을 화면에서 직접 편집하는 공간입니다.	S4	앱에 따라 페이지와 캔버스의 경계가 다릅니다.
+Properties	속성	panel	선택한 항목의 크기나 색상 등 바꿀 수 있는 값을 보여 줍니다.	S4	아무것도 선택하지 않았을 때의 범위를 확인합니다.
+Layer	레이어	document structure	내용을 겹겹이 나누어 순서와 표시 상태를 관리하는 단위입니다.	S5	페이지와 레이어를 같은 계층으로 설명하지 않습니다.
+Group	그룹화	command	여러 항목을 묶어 함께 선택하고 이동할 수 있게 합니다.	editorial	명사로 쓰이는 Group의 번역은 그룹입니다.
+Group	그룹	object container	여러 항목을 함께 관리하는 묶음입니다.	editorial	명령과 항목 이름에 별도 문맥을 둡니다.
+Object	개체	editable item	문서에서 선택하고 이동하거나 모양을 바꿀 수 있는 항목입니다.	S3	오브젝트를 동의어로 유지합니다. 앱 전체에서 한 표기를 우선합니다.
+Selection	선택 항목	objects	현재 명령이 적용될 개체나 항목입니다.	editorial	픽셀 선택 영역과 구별합니다.
+Selection	선택 영역	pixels	이미지에서 다음 편집이 적용될 범위입니다.	S5	영역을 선택하는 것과 내용을 삭제하는 것은 다릅니다.
+Select All	모두 선택	command	현재 작업 범위에서 선택할 수 있는 항목을 모두 선택합니다.	editorial	현재 작업 범위를 실제 기능에 맞게 보충합니다.
+Deselect	선택 해제	command	현재 선택을 풀고 다음 작업의 대상을 비웁니다.	editorial	문서 내용을 지우는 명령으로 설명하지 않습니다.
+Lock	잠금	command	대상이 실수로 선택되거나 바뀌지 않도록 편집을 제한합니다.	editorial	보안 암호화와 구별합니다.
+Hide	숨기기	command	내용을 지우지 않고 화면에서 보이지 않게 합니다.	editorial	내보내기에도 적용되는지는 앱별로 확인합니다.
+Opacity	불투명도	appearance	값을 낮추면 뒤에 있는 내용이 더 많이 비쳐 보입니다.	S5	100%는 완전히 불투명한 상태입니다.
+Fill	칠	shape interior	도형이나 글자 내부를 채우는 색상입니다.	S10	채우기를 동의어로 둡니다. 획과 구별합니다.
+Stroke	획	shape boundary	도형이나 글자의 가장자리를 따라 그리는 테두리입니다.	S10	선이라는 개체와 획이라는 속성을 구별합니다.
+Stroke Width	획 두께	appearance	테두리를 얼마나 굵게 그릴지 정합니다.	S10	굵기와 두께를 혼용하지 않습니다.
+Line	선	shape	두 지점을 잇는 직선이나 곡선 개체입니다.	editorial	문장의 줄 또는 획 속성과 구별합니다.
+Swatches	색상 견본	palette	자주 쓰는 색상을 이름과 함께 저장하여 다시 사용합니다.	S2	짧은 패널명도 가능하면 색상 견본으로 통일합니다.
+Gradient	그레이디언트	appearance	두 가지 이상의 색상이 점차 바뀌도록 채웁니다.	S10	그라데이션은 검색용 동의어로 유지합니다.
+Blend Mode	혼합 모드	compositing	위쪽 내용의 색상이 아래쪽 내용과 합쳐지는 계산 방식을 고릅니다.	S5	불투명도와 다른 설정입니다.
+Mask	마스크	visibility control	내용을 바로 지우는 대신 보이는 부분과 숨길 부분을 정합니다.	S5	마스크 적용이나 래스터화는 별도로 결과를 확인합니다.
+Clipping Mask	클리핑 마스크	visibility control	다른 도형이나 아래쪽 내용의 모양 안에서만 대상을 보이게 합니다.	S5	클리핑 기준이 도형인지 레이어인지 앱별로 설명합니다.
+Crop	자르기	image bounds	그림에서 사용할 범위를 정하여 바깥쪽을 제외합니다.	editorial	비파괴 여부와 잘린 픽셀의 보존 여부를 명시합니다.
+Transform	변형	geometry	선택한 항목의 크기나 회전, 기울기를 바꿉니다.	editorial	파일 형식 변환과 구별합니다.
+Align	정렬	object geometry	여러 항목의 가장자리나 중심을 같은 기준에 맞춥니다.	editorial	앞뒤 쌓임 순서 변경과 구별합니다.
+Distribute	간격 배분	object geometry	여러 항목 사이의 위치나 간격을 일정하게 맞춥니다.	editorial	정렬과 다른 동작임을 설명합니다.
+Arrange	쌓임 순서	stacking order	겹친 항목 중 어느 것을 앞이나 뒤에 보이게 할지 정합니다.	editorial	정렬 및 배열이라는 모호한 번역을 피합니다.
+Arrange	창 배열	document window layout	여러 문서 창을 나란히 놓거나 보기 좋게 배치합니다.	editorial	개체의 쌓임 순서를 바꾸는 Arrange와 구별합니다.
+Bring to Front	맨 앞으로 가져오기	stacking order	선택한 항목을 같은 쌓임 범위의 가장 앞쪽에 둡니다.	editorial	다른 레이어를 넘는지는 구현을 확인합니다.
+Send to Back	맨 뒤로 보내기	stacking order	선택한 항목을 같은 쌓임 범위의 가장 뒤쪽에 둡니다.	editorial	문서에서 삭제하는 명령이 아닙니다.
+Zoom	확대/축소	view	문서를 화면에서 크게 또는 작게 봅니다.	S4	문서의 실제 크기는 바뀌지 않습니다.
+Fit Page	페이지 맞춤	view	현재 페이지 전체가 화면에 들어오도록 보기 배율을 조절합니다.	editorial	인쇄할 용지에 맞추는 설정과 구별합니다.
+Guides	안내선	layout aids	위치와 간격을 맞출 때 기준으로 삼는 선입니다.	S2	대개 출력되지 않지만 앱별 출력 동작을 확인합니다.
+Grid	격자	layout aids	일정한 간격의 선을 기준으로 항목을 배치합니다.	S2	문서 격자와 텍스트 격자를 문맥으로 구별합니다.
+Snap	자동 맞춤	pointer behavior	이동하는 항목이 가까운 안내선이나 기준점에 맞춰 붙도록 합니다.	editorial	텍스트 정렬이나 크기 맞춤과 구별합니다.
+Resolution	해상도	image or output	이미지의 픽셀 수나 출력 시 픽셀을 배치하는 밀도를 나타냅니다.	editorial	px와 ppi, dpi를 같은 값처럼 설명하지 않습니다.
+Font	글꼴	text	문자의 기본 모양을 정하는 서체입니다.	S2	폰트는 검색용 동의어로 유지합니다.
+Font Size	글꼴 크기	text	글자가 표시되는 크기를 정합니다.	S2	포인트 단위와 화면 픽셀 크기를 혼동하지 않습니다.
+Character	문자	text formatting	선택한 글자의 글꼴이나 크기 등 글자 단위의 서식을 조절합니다.	S2	문자 수라는 뜻과 패널명을 구별합니다.
+Paragraph	단락	text formatting	문단 단위의 정렬과 들여쓰기, 앞뒤 간격을 조절합니다.	S2	초보자 설명에서는 문단을 함께 씁니다.
+Columns	열	table or spreadsheet	표에서 위아래로 이어지는 셀의 묶음입니다.	editorial	페이지 본문을 나누는 단과 구별합니다.
+Rows	행	table or spreadsheet	표에서 가로로 나란히 있는 셀의 묶음입니다.	editorial	텍스트의 행간을 뜻하는 줄과 구별합니다.
+Frame	프레임	layout container	글이나 그림을 담고 위치와 표시 범위를 정하는 틀입니다.	S3	영상의 한 장면 프레임과 구별합니다.
+Frame	프레임	video image	영상의 시간 흐름을 구성하는 한 장의 화면입니다.	S8	레이아웃의 텍스트 프레임과 구별합니다.
+Preview	미리 보기	view	설정을 확정하거나 출력하기 전에 결과를 살펴봅니다.	S3	실제 출력과 동일함을 확인하기 전에는 보장하지 않습니다.
+Preset	사전 설정	settings collection	자주 쓰는 설정 묶음을 저장하거나 불러옵니다.	S3	프리셋을 검색용 동의어로 유지합니다.
+Thumbnail	축소판	preview image	페이지나 이미지의 내용을 작게 보여 주는 미리 보기입니다.	S5	썸네일은 검색용 동의어입니다.
+Embed	포함	external content	외부 자료의 사본을 문서 파일 안에 저장합니다.	editorial	글꼴 포함과 그림 포함의 용량 및 권한을 구별합니다.
+Link	연결	external content	외부 파일의 위치를 기억하여 문서에서 참조합니다.	editorial	인터넷 하이퍼링크는 링크로 구별합니다.
+Warning	경고	message	작업을 계속하기 전에 결과에 영향을 줄 내용을 알려 줍니다.	editorial	사용자가 해야 할 조치를 문장으로 설명합니다.
+Caution	주의	message	결과에 영향을 줄 수 있어 살펴볼 내용을 알려 줍니다.	editorial	실제 위험 수준에 맞춰 경고와 구별합니다.
+Error	오류	message	작업을 완료하지 못한 이유와 해결 방법을 알려 줍니다.	editorial	원인이나 해결 방법을 모르면 추정하지 않습니다.

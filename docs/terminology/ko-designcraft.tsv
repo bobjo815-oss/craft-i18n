@@ -1,0 +1,38 @@
+english	korean	context	novice_help	references	decision
+Layout	레이아웃	page composition	페이지 안에서 글과 그림을 배치하는 구성입니다.	S3	화면 작업 영역 배치와 문서 레이아웃을 구별합니다.
+Page	페이지	output unit	책이나 문서를 구성하는 한 면입니다.	S3	캔버스 전체와 구별합니다.
+Spread	스프레드	page group	서로 이어서 배치한 페이지를 한 묶음으로 보는 단위입니다.	S3	처음 설명할 때 펼침면을 병기합니다. 항상 두 페이지는 아닙니다.
+Facing Pages	마주보는 페이지	document setup	책처럼 왼쪽과 오른쪽 페이지가 마주보도록 구성합니다.	S3	양면 인쇄 설정 자체와 구별합니다.
+Pasteboard	페이스트보드	layout workspace	페이지 바깥에서 개체를 잠시 두거나 준비하는 작업 공간입니다.	S3	초보자 설명에는 페이지 바깥 작업판을 사용합니다.
+Margins	여백	page setup	페이지 가장자리와 본문 사이에 둘 기준 공간입니다.	S3	도련 및 프레임 내부 여백과 구별합니다.
+Columns	단	page text layout	페이지의 본문을 세로로 나누어 배치하는 구획입니다.	S3	표의 Columns는 열입니다.
+Gutter	단 간격	page text layout	나란히 놓인 본문 단 사이의 빈 공간입니다.	S3	다른 문맥에서는 제본 여백이나 표 간격일 수 있습니다.
+Bleed	도련	print setup	재단 오차로 흰 가장자리가 생기지 않도록 완성 크기 밖까지 그림을 늘리는 영역입니다.	S3	여백을 늘리는 설정이 아닙니다.
+Slug	슬러그	print production notes	완성 페이지 바깥에 인쇄 지시나 제작 메모를 적는 영역입니다.	S3	보조 설명은 제작 메모 영역으로 씁니다.
+Parent Pages	상위 페이지	reusable page layout	쪽 번호나 머리말처럼 여러 페이지가 함께 쓸 기본 배치를 만듭니다.	S3	마스터 페이지는 이전 명칭과 검색용 동의어로 유지합니다.
+Master Pages	마스터 페이지	legacy reusable layout	여러 페이지에 반복 적용하는 기본 배치를 뜻하는 이전 명칭입니다.	S3	실제 앱 키가 Master일 때만 이 이름으로 표시합니다.
+Text Frame	텍스트 프레임	text container	글을 담는 틀입니다. 틀의 크기와 글자 크기는 따로 조절할 수 있습니다.	S3	그림 프레임과 구별합니다.
+Graphic Frame	그래픽 프레임	image container	그림을 담고 페이지에서 보이는 범위를 정하는 틀입니다.	S3	프레임 이동과 내부 그림 이동이 다름을 설명합니다.
+Story	스토리	text flow	여러 프레임으로 이어질 수 있는 하나의 글 흐름입니다.	S2	소설이나 줄거리라는 뜻으로 번역하지 않습니다.
+Text Thread	텍스트 연결	text flow	한 프레임에서 넘친 글이 다음 프레임으로 이어지게 합니다.	editorial	단순한 프레임 그룹화와 다릅니다.
+Overset Text	넘친 텍스트	text flow warning	틀에 다 들어가지 않아 화면과 출력에 보이지 않는 글이 남아 있습니다.	editorial	삭제된 글이 아닙니다. 틀을 늘리거나 연결할 수 있습니다.
+Inset Spacing	프레임 내부 여백	text frame setting	텍스트 프레임 테두리와 글 사이에 둘 공간입니다.	editorial	페이지 바깥 여백과 구별합니다.
+Leading	행간	character formatting	한 줄의 기준선에서 다음 줄의 기준선까지의 간격입니다.	S2	글자 위아래 빈 공간만을 뜻하지 않습니다.
+Tracking	자간	character formatting	선택한 글자 범위의 문자 간격을 함께 조절합니다.	S2	한 쌍의 글자 간격을 다루는 커닝과 구별합니다.
+Kerning	커닝	character formatting	이웃한 두 글자 사이의 간격을 조절합니다.	editorial	긴 구절 전체 간격에는 자간을 사용합니다.
+Baseline	기준선	text alignment	글자들이 나란히 놓이는 기준이 되는 선입니다.	S2	글자 테두리의 가장 아래 지점과 같지 않을 수 있습니다.
+Baseline Grid	기준선 격자	text alignment	여러 단이나 페이지의 글줄 위치를 일정하게 맞추는 기준선입니다.	editorial	문서의 도형 배치 격자와 구별합니다.
+Baseline Shift	기준선 이동	character formatting	선택한 글자를 같은 줄의 기준선보다 위나 아래로 옮깁니다.	S2	단락 전체를 이동하는 기능이 아닙니다.
+Character Styles	문자 스타일	text styling	글자 단위의 서식을 이름으로 저장하여 다시 적용합니다.	S2	단락 스타일과 범위가 다릅니다.
+Paragraph Styles	단락 스타일	text styling	문단의 글꼴과 정렬, 간격 등을 묶어 일관되게 적용합니다.	S2	직접 지정한 서식이 스타일보다 우선할 수 있습니다.
+Object Styles	개체 스타일	object styling	프레임의 테두리나 효과 같은 속성 묶음을 저장하여 적용합니다.	S3	오브젝트 스타일은 검색용 동의어입니다.
+Keep Options	단락 유지 옵션	pagination	제목이나 문단이 다음 줄 또는 문단과 함께 배치되도록 정합니다.	editorial	문서 저장 옵션이 아닙니다.
+Drop Cap	단락 첫 문자 장식	paragraph typography	문단 첫 글자를 크게 하여 여러 줄 높이에 걸쳐 배치합니다.	editorial	장식 문자와 드롭 캡을 동의어로 유지합니다.
+Text Wrap	텍스트 감싸기	layout interaction	그림이나 개체 주변을 피해 글이 흐르도록 합니다.	editorial	한 줄의 자동 줄바꿈과 구별합니다.
+Hyphenation	하이픈 넣기	line breaking	단어를 줄 끝에서 나누어 배치할 때 하이픈을 넣도록 설정합니다.	editorial	언어별 사전과 실제 지원 범위를 확인합니다.
+Widow	마지막 줄 고립	typography warning	문단의 마지막 줄만 다음 단이나 페이지에 따로 남은 상태입니다.	editorial	위도우를 검색용 동의어로 둡니다.
+Orphan	첫 줄 고립	typography warning	문단의 첫 줄만 앞 단이나 페이지 끝에 따로 남은 상태입니다.	editorial	오펀을 검색용 동의어로 둡니다.
+Package	패키지 만들기	project handoff	문서에 필요한 연결 파일 등을 전달하기 좋게 모읍니다.	editorial	실제 수집 범위와 글꼴 재배포 권한을 확인합니다.
+Relink	다시 연결	external graphics	찾을 수 없거나 바뀐 외부 파일의 위치를 다시 지정합니다.	editorial	이미지 자체를 새로 만드는 작업이 아닙니다.
+Fit Content to Frame	내용을 프레임에 맞춤	graphic sizing	안쪽 그림의 크기를 바깥 프레임에 맞춰 조절합니다.	editorial	가로세로 비율 보존 여부를 명령별로 확인합니다.
+Fit Frame to Content	프레임을 내용에 맞춤	graphic sizing	안쪽 내용에 맞게 바깥 프레임의 크기를 조절합니다.	editorial	내용을 프레임에 맞춤과 반대 방향입니다.

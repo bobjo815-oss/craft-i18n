@@ -1,0 +1,33 @@
+english	korean	context	novice_help	references	decision
+Scan & OCR	스캔 및 OCR	tool category	스캔한 문서를 정리하고 그림 속 글자를 읽는 기능입니다.	S1	스캔과 텍스트 인식은 별도 단계입니다.
+Recognize Text	텍스트 인식	OCR action	페이지 그림에서 글자를 읽어 검색과 선택에 사용할 텍스트를 만듭니다.	S1	현재 PdfCraft의 인식 범위를 먼저 확인해야 합니다.
+Document language	문서 언어	OCR setting	그림 속 글자를 읽을 때 사용할 언어를 고릅니다.	S1	인터페이스 언어나 번역할 목표 언어와 다릅니다.
+Searchable Image (Exact)	검색 가능한 이미지(원본 유지)	OCR output	페이지 그림은 유지하고 인식한 글자를 보이지 않는 텍스트 층으로 덧붙입니다.	S1	번역된 문서나 재조판된 편집 문서가 아닙니다.
+Text Layer	텍스트 층	PDF content	글자 검색과 복사에 쓰이는 문서 내부의 문자 정보입니다.	S1	그림의 글자 모양과 인식 결과가 다를 수 있습니다.
+Downsample to	해상도 낮추기	OCR rendering	처리할 이미지가 지정한 해상도를 넘으면 줄여서 인식합니다.	editorial	원본 PDF 그림이 바뀌는지는 실제 출력 동작으로 확인합니다.
+Deskew	기울기 보정	scan cleanup	비스듬히 스캔된 페이지를 읽기 편하도록 바로잡습니다.	editorial	페이지 회전이나 원근 보정과 구별합니다.
+Rotate Pages	페이지 회전	page geometry	선택한 페이지의 읽는 방향을 돌립니다.	editorial	화면 보기만 돌리는 동작과 구별합니다.
+Organize Pages	페이지 구성	page management	페이지를 추가하거나 삭제하고 순서를 바꿉니다.	editorial	목차 편집과 구별합니다.
+Extract Pages	페이지 추출	page management	선택한 페이지로 별도의 PDF를 만듭니다.	editorial	원본 페이지 삭제 여부는 별도 옵션으로 안내합니다.
+Split PDF	PDF 분할	file management	한 PDF를 여러 파일로 나눕니다.	editorial	페이지 안의 그림을 자르는 동작이 아닙니다.
+Combine Files	파일 결합	file management	여러 파일의 페이지를 하나의 PDF로 모읍니다.	editorial	첨부 파일 추가와 구별합니다.
+Comment	주석	PDF annotation	본문을 고치지 않고 문서 위에 의견이나 검토 표시를 남깁니다.	editorial	협업 대화의 댓글과 문서 주석을 구별합니다.
+Sticky Note	메모	PDF annotation	페이지의 특정 위치에 설명이나 의견을 붙입니다.	editorial	본문 텍스트 추가와 구별합니다.
+Highlight	강조 표시	PDF annotation	중요한 구절 위에 색 표시를 덧붙입니다.	editorial	글자의 실제 색을 바꾸는 기능과 구별합니다.
+Bookmark	책갈피	PDF navigation	제목이나 특정 페이지로 빠르게 이동하는 항목입니다.	editorial	브라우저 즐겨찾기와 구별합니다.
+Redact	민감정보 제거	content removal	공유하면 안 되는 글자나 그림을 문서에서 제거하는 작업입니다.	S7	Adobe의 교정은 동의어로 기록하고 맞춤법 교정과 구별합니다.
+Mark for Redaction	제거 대상으로 표시	content removal preparation	어디를 제거할지 표시합니다. 표시만으로는 내용이 삭제되지 않습니다.	S7	표시 단계와 실제 제거 적용 단계를 반드시 구별합니다.
+Apply Redactions	제거 적용	content removal confirmation	표시한 영역의 민감한 내용을 실제로 제거합니다.	S7	되돌리기와 저장 동작을 확인한 문구만 제품에 넣습니다.
+Sanitize Document	숨겨진 정보 제거	privacy cleanup	문서 속성이나 첨부 자료 등 눈에 보이지 않는 정보를 찾아 제거합니다.	editorial	모든 개인정보가 자동으로 제거된다고 보장하지 않습니다.
+Metadata	메타데이터	document properties	제목이나 작성자처럼 문서 내용 밖에 저장된 정보를 뜻합니다.	editorial	초보자에게는 문서 부가정보로 풀어 씁니다.
+Attachment	첨부 파일	PDF embedded file	PDF 안에 함께 넣어 둔 별도의 파일입니다.	editorial	페이지에 보이는 그림과 다릅니다.
+Form Field	양식 필드	interactive PDF	이름이나 날짜 등을 입력하거나 선택할 수 있는 칸입니다.	editorial	화면에 그려진 사각형이 모두 입력 칸은 아닙니다.
+Flatten	병합	PDF annotations and fields	주석이나 입력 결과를 일반 페이지 내용으로 합칩니다.	editorial	항목별 편집이나 양식 입력 기능이 사라질 수 있습니다.
+Digital Signature	디지털 서명	cryptographic signature	인증서와 암호 기술로 문서의 서명 및 변경 상태를 확인하는 방식입니다.	editorial	손글씨 그림 삽입과 구별하고 법적 효력을 보장하지 않습니다.
+Signature Appearance	서명 표시	visual signature	서명란에 보이는 이름이나 이미지의 모양을 정합니다.	editorial	보이는 표시 자체가 암호학적 검증은 아닙니다.
+Certificate	인증서	digital identity	서명자의 공개키와 신원 정보를 연결하는 자료입니다.	editorial	신뢰 여부는 인증 경로와 검증 결과에 따릅니다.
+Permissions Password	권한 암호	PDF security	문서 열기와 별도로 일부 편집 및 사용 권한을 제한하는 암호입니다.	editorial	파일 열기 암호와 구별합니다.
+Crop Box	자르기 경계	PDF page box	페이지에서 표시하거나 출력할 기본 범위를 정합니다.	editorial	경계 밖의 내용이 실제로 삭제된다고 설명하지 않습니다.
+Reading Order	읽기 순서	accessibility	화면 낭독기 등이 문서 내용을 읽어 나갈 순서입니다.	editorial	화면에서 보이는 개체 순서와 다를 수 있습니다.
+Alt Text	대체 텍스트	accessibility	그림을 볼 수 없을 때 그 의미를 전달하는 설명입니다.	editorial	파일명 반복보다 그림의 목적을 설명합니다.
+Preflight	인쇄 전 점검	print checks	글꼴이나 색상 등 출력 시 문제가 될 조건을 검사합니다.	editorial	프리플라이트는 검색용 동의어로 유지합니다.

@@ -1,5 +1,9 @@
 # Glossary
 
+Korean UI terminology and novice-help drafting have a separate, context-aware reference:
+[Korean localization](docs/Korean-Localization.md). Its shared and app-specific termbases are
+reference data, not the runtime catalogs in `locales/`.
+
 **Crafting App**: one of the storytold applications that share these translations (WordCraft,
 PdfCraft, PhotoCraft, ArtCraft, …).
 

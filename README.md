@@ -18,6 +18,7 @@ app picks it up. An app can still override a shared string, or add its own, in i
 | `docs/integration.md` | How an app embeds the catalogs as a fully optional build input. |
 | `docs/adr/` | Why TSV keyed by English, and why the lookup code lives in craft-libs. |
 | `GLOSSARY.md` | The words this project uses: source text, context, catalog, override… |
+| `docs/Korean-Localization.md` | Korean shared/app-specific terminology, source references and novice-help writing guidance. |
 | `ROADMAP.md` | Milestones and which apps have moved here. |
 | `ATTRIBUTION.md` | Translators, and where migrated catalogs came from. |
 | `AGENTS.md` | Instructions for coding agents, pointing at the shared craftrules standards. |

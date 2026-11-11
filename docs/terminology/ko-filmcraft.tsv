@@ -1,0 +1,34 @@
+english	korean	context	novice_help	references	decision
+Sequence	시퀀스	timeline composition	여러 영상과 소리를 시간 순서로 배치한 편집 결과의 단위입니다.	S8	원본 미디어 파일 하나와 구별합니다.
+Timeline	타임라인	time workspace	클립과 소리를 시간에 따라 배치하고 편집하는 영역입니다.	S8	재생 시간과 트랙 위치를 함께 설명합니다.
+Track	트랙	timeline lane	영상이나 소리를 겹쳐 배치할 수 있는 가로 편집 줄입니다.	S8	파일 탐색의 항목이나 레이어와 앱 맥락을 구별합니다.
+Clip	클립	timeline item	원본 영상이나 소리의 일부를 편집에 사용한 항목입니다.	S8	클립 삭제와 원본 파일 삭제를 구별합니다.
+Playhead	재생 헤드	timeline cursor	현재 보거나 재생할 시간 위치를 나타냅니다.	S8	마우스 포인터와 구별합니다.
+Timecode	타임코드	time display	시간 위치를 시·분·초·프레임 등의 형식으로 표시합니다.	editorial	표시 형식과 프레임 속도를 확인합니다.
+Frame Rate	프레임 속도	video timing	영상이 1초에 몇 장의 화면으로 구성되는지 정합니다.	editorial	재생 속도 및 화면 주사율과 구별합니다.
+In Point	시작점	media range	사용할 원본 구간이 시작되는 위치입니다.	S8	타임라인의 클립 위치와 구별합니다.
+Out Point	종료점	media range	사용할 원본 구간이 끝나는 위치입니다.	S8	끝 프레임 포함 규칙은 실제 앱의 시간 표현을 따릅니다.
+Trim	트림	clip boundary editing	클립에서 사용할 구간의 시작이나 끝을 조절합니다.	S8	이미지 자르기와 클립 분할을 구별합니다.
+Razor	클립 분할	cut tool	지정한 시간에서 클립을 두 부분으로 나눕니다.	S8	Adobe 자르기 도구는 동의어로 두고 공간 자르기와 구별합니다.
+Ripple Edit	잔물결 편집	clip boundary editing	클립 길이를 바꾸며 뒤쪽 클립도 함께 이동시켜 빈틈을 정리합니다.	S8	리플 편집을 검색용 동의어로 유지합니다. 잠긴 트랙을 확인합니다.
+Ripple Delete	간격 없이 삭제	timeline removal	구간을 삭제한 뒤 뒤쪽 내용을 당겨 빈자리를 메웁니다.	S8	일반 삭제와 후속 클립 이동 여부가 다릅니다.
+Rolling Edit	롤링 편집	adjacent clip editing	맞닿은 두 클립의 전체 길이를 유지하며 경계 위치를 바꿉니다.	S9	뒤쪽 클립 전체를 밀어내는 잔물결 편집과 구별합니다.
+Slip	밀어넣기	clip content timing	클립의 위치와 길이를 유지하며 안에 보이는 원본 구간만 옮깁니다.	S8	슬립을 동의어로 병기합니다. 밀기와 구별합니다.
+Slide	밀기	clip position timing	가운데 클립을 옮기고 앞뒤 클립의 경계를 조절하여 전체 구간을 유지합니다.	editorial	슬라이드를 동의어로 병기합니다. 구현 확인 전 제품 툴팁에 넣지 않습니다.
+Insert	삽입	timeline placement	새 클립을 끼워 넣고 해당 구간 뒤의 내용을 이동시킵니다.	editorial	덮어쓰기 배치와 구별합니다.
+Overwrite	덮어쓰기	timeline placement	해당 시간 구간의 내용을 새 클립으로 바꿉니다.	editorial	파일 덮어쓰기와 다른 동작입니다.
+Source Monitor	소스 모니터	media preview	타임라인에 넣기 전에 원본 미디어를 확인하는 화면입니다.	editorial	편집 결과를 보는 프로그램 모니터와 구별합니다.
+Program Monitor	프로그램 모니터	sequence preview	현재 시퀀스의 편집 결과를 보여 주는 화면입니다.	editorial	모니터라는 하드웨어 이름과 구별합니다.
+Keyframe	키프레임	animation	특정 시간의 위치나 효과 값을 기록하여 시간에 따른 변화를 만듭니다.	S8	동영상 압축의 키프레임과 별도 문맥을 둡니다.
+Transition	전환	timeline effect	앞 장면에서 다음 장면으로 넘어가는 방식을 정합니다.	editorial	클립 자체 효과와 구별합니다.
+Cross Dissolve	교차 디졸브	video transition	앞 장면이 옅어지는 동안 다음 장면이 서서히 나타납니다.	editorial	디졸브는 검색용 동의어입니다.
+Crossfade	크로스페이드	audio transition	앞 소리가 작아지는 동안 다음 소리가 커지도록 이어 줍니다.	editorial	영상 전환과 오디오 전환을 문맥으로 구별합니다.
+Gain	게인	audio level	오디오 신호의 기준 크기를 조절합니다.	editorial	최종 출력 음량과 같은 설정이라고 설명하지 않습니다.
+Waveform	파형	audio visualization	시간에 따른 소리 신호의 변화를 그림으로 보여 줍니다.	S8	진폭과 체감 음량은 항상 일치하지 않습니다.
+Audio Clipping	오디오 클리핑	audio warning	신호가 허용 범위를 넘어 소리가 찌그러질 수 있는 상태입니다.	editorial	클립 자르기나 클리핑 마스크와 구별합니다.
+Proxy	프록시	media performance	무거운 원본 대신 가벼운 사본으로 편집하는 방식입니다.	editorial	내보낼 때 어떤 파일을 쓰는지 실제 설정을 확인합니다.
+Render	렌더링	output processing	편집 설정과 효과를 계산하여 재생 화면이나 결과 파일을 만듭니다.	editorial	저장 또는 내보내기와 목적을 함께 설명합니다.
+Safe Margins	안전 여백	video guides	중요한 글자나 내용을 화면 가장자리에서 떨어뜨리는 기준선입니다.	editorial	모든 기기의 잘림을 보장하지 않습니다.
+Track Lock	트랙 잠금	timeline protection	해당 트랙의 클립이 실수로 바뀌지 않도록 편집을 제한합니다.	editorial	동기화 잠금 및 음소거와 구별합니다.
+Mute	음소거	audio playback	해당 소리를 재생에서 끕니다.	editorial	오디오 클립 삭제와 구별합니다.
+Solo	단독 재생	audio playback	다른 트랙을 줄이거나 끄고 이 트랙의 소리를 확인합니다.	editorial	실제 앱의 솔로 결합 동작을 확인합니다.

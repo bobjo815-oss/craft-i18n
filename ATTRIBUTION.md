@@ -1,5 +1,15 @@
 # Translation attribution
 
+## Korean terminology study (2026-10-24, user fork)
+
+`docs/terminology/ko-*.tsv` and `docs/Korean-Localization.md` were drafted with OpenAI Codex
+at the user's request to compare conventional Korean labels in public Adobe help and tutorials.
+The source ledger is `docs/terminology/ko-sources.json`. Short technical vocabulary was consulted;
+definitions, choices and novice-help text are original, not copied product descriptions or string
+tables. This reference work does not change the provenance of existing runtime catalogs. It is
+AI-assisted, self-reviewed, and has not received separate human/native-speaker review. Contributed
+under MIT OR Apache-2.0.
+
 Everyone who has translated strings in `locales/`, by locale, and the app commit each migrated
 catalog came from (`<app>@<sha>`). Translations are contributed under the repository's licence
 (MIT OR Apache-2.0). English is the source text in the apps and is not listed.
